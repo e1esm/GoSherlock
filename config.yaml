@@ -1,0 +1,5 @@
+services:
+  - name: youtube
+    base_link: https://t.me/
+  - name: reddit
+    base_link: https://www.reddit.com/user/
