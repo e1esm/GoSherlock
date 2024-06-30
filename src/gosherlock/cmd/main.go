@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	log "GoSherlock/src/gosherlock/pkg/logger"
+	log "github.com/e1esm/GoSherlock/pkg/logger"
 	"github.com/jessevdk/go-flags"
 )
 

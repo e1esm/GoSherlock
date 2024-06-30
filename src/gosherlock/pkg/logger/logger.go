@@ -19,7 +19,6 @@ func New(logLevel string, outputFile string) (*Logger, error) {
 	}
 
 	src := os.Stderr
-
 	if len(outputFile) != 0 {
 		src, err = os.Create(outputFile)
 		if err != nil {
